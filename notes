@@ -1,0 +1,51 @@
+1. Run cmd node -v
+2. Run  npm -v
+
+    If you dont have these - please insstall  NODE.js on local machine
+
+3. Insatall Angular CLI
+    -npm i -g @angular/cli
+
+4. If you try and run ng commands before installing Angular CLI
+        -You will see errors 
+
+5. To craete new appliction 
+        -ng new <application_name>
+
+6. after instaletion done to run cmd your terminal npm start or ng serve
+
+        MOCk DATA SETUP
+
+1.  we can use any framework ,any  language, any sereve for api
+2.  cloud hosted APIs and Mock endpoints
+3.  Json Server 
+        -npm i --save json-server
+4. The default that json server run is 3000
+        -You can run on any port on any server  
+5. https://github.com/typicode/json-server 
+
+1->you can use any design framework to bulid your website
+
+2->The CSS frameworks 
+    -Bootstrap 
+    -Material Design
+    -Custom Design
+
+3->Installation of Bootstrap framework(bootstarp v4)
+  npm i --save bootstrap jquery popper 
+        -it will install packages
+        -it will update package.json file
+
+4. Two defferent approches
+    4.1 Genarating modules - orders
+    4.2 Genarting modules via Lazy Loding ->Products
+
+5. Generating Modules 
+    -ng g m <modulname>
+    -Then navigate inside the orders module 
+      -ng g c list-orders
+
+6. To use the orders module
+    -import into appmodule
+    -add the module into the importd array
+ 
