@@ -1,11 +1,10 @@
 <div class="card mt-4">
-    <img class="card-img-top img-fluid" src="" alt="">
+    <img class="card-img-top img-fluid" src="{{productDetails.product_img}}" alt="">
     <div class="card-body">
-        <h3 class="card-title">product name</h3>
-        <a ></a>
-        <h4>$ionso</h4>
-        <p class="card-text">kjbiu
-        </p>
+        <h3 class="card-title">{{productDetails.name}}</h3>
+        <a></a>
+        <h4>${{productDetails.price}}</h4>
+        <p class="card-text">{{productDetails.name}}</p>
     </div>
 </div>
 <!-- ./card -->
@@ -14,21 +13,10 @@
         Product Reviews
     </div>
     <div class="card-body">
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem
-            modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima
-            ea iste laborum vero?</p>
+        <p class="card-text">{{productDetails.description}}</p>
+        
         <small class="text-muted">Posted ny Anonymous on 3/1/17</small>
         <hr>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem
-            modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima
-            ea iste laborum vero?</p>
-        <small class="text-muted">Posted ny Anonymous on 3/1/17</small>
-        <hr>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem
-            modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima
-            ea iste laborum vero?</p>
-        <small class="text-muted">Posted ny Anonymous on 3/1/17</small>
-        <hr>
-        <a href="#" class="btn btn-success">Leave a Revview</a>
+        <a href="/products" class="btn btn-success">Leave a Revview</a>
     </div>
 </div> 

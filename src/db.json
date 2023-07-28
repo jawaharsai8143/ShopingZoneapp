@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "headephone-1",
+      "category_id": 2,
+      "description": "product description goes here",
+      "product_img": "../../assets/img1.jpeg",
+      "price": 100,
+      "is_available": true,
+      "rating": 5,
+      "reviwes": 40,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
+    },
+    {
+      "id": 2,
+      "name": "headephone-2",
+      "category_id": 3,
+      "description": "product description goes here",
+      "product_img":"../../assets/img2.jpeg",
+      "price": 1,
+      "is_available": true,
+      "rating": 3,
+      "reviwes": 120,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "name": "headephone-2",
+      "category_id": 4,
+      "description": "product description goes here",
+      "product_img": "../../assets/img3.jpeg",
+      "price": 10,
+      "is_available": true,
+      "rating": 3,
+      "reviwes": 12,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
+    },
+    {
+      "id": 10,
+      "name": "hii",
+      "categoryId": "1"
+    },
+    {
+      "id": 11,
+      "name": "ds",
+      "categoryId": ""
+    },
+    {
+      "id": 12,
+      "name": "sony",
+      "categoryId": "12",
+      "description": "this is very good qulity ",
+      "rating": "2",
+      "color": "red",
+      "isAvailable": "yes"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "HeadPhones"
+    },
+    {
+      "id": 2,
+      "categoryName": "HeadPhones"
+    },
+    {
+      "id": 4,
+      "categoryName": "All clothig"
+    },
+    {
+      "id": 5,
+      "categoryName": "Casual shirts"
+    },
+    {
+      "id": 6,
+      "categoryName": "jeans,trousers"
+    },
+    {
+      "id": 7,
+      "categoryName": "shoes"
+    },
+    {
+      "id": 8,
+      "categoryName": "Sunglasses"
+    }
+  ],
+  "reviwes": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

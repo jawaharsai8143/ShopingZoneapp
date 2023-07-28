@@ -1,118 +1,17 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "OnePluse",
-      "categoryid": 1,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img1.jpeg",
-      "price": 100,
-      "is_available": true,
-      "rating": 5,
-      "reviwes": 40,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    },
-    {
-      "id": 2,
-      "name": "Sony",
-      "categoryid": 2,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img2.jpeg",
-      "price": 1,
-      "is_available": true,
-      "rating": 3,
-      "reviwes": 120,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    },
-    {
-      "id": 3,
-      "name": "Samsung",
-      "categoryid": 3,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img3.jpeg",
-      "price": 10,
-      "is_available": true,
-      "rating": 3,
-      "reviwes": 12,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    },
-    {
-      "id": 4,
-      "name": "Vivo",
-      "categoryid": 4,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img4.jpeg",
-      "price": 10,
-      "is_available": true,
-      "rating": 3,
-      "reviwes": 12,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    },
-    {
-      "id": 5,
-      "name": "IQOO",
-      "categoryid": 5,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img5.jpeg",
-      "price": 10,
-      "is_available": true,
-      "rating": 3,
-      "reviwes": 12,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    },
-    {
-      "id": 6,
-      "name": "Realme",
-      "categoryid": 6,
-      "description": "product description goes here",
-      "product_img": "../assets/data/img6.jpeg",
-      "price": 10,
-      "is_available": true,
-      "rating": 3,
-      "reviwes": 12,
-      "vendor_nmae": "seller-1",
-      "warranty": 2
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "categoryName": "OnePluse"
-    },
-    {
-      "id": 2,
-      "categoryName": "Sony"
-    },
-    {
-      "id": 3,
-      "categoryName": "Samsung"
-    },
-    {
-      "id": 4,
-      "categoryName": "Vivo"
-    },
-    {
-      "id": 5,
-      "categoryName": "IQOO"
-    },
-    {
-      "id": 6,
-      "categoryName": "Realme"
-    }
-  ],
-  "reviwes": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "products": [
+        {
+         "id": 1, 
+      "name": "headephone-1",
+       "category_id": 2 ,
+       "description":"product description goes here",
+       "product_img":"img path",
+       "price":100,
+       "is_available":true,
+       "rating":5,
+       "reviwes":40,
+       "vendor_nmae":"seller-1",
+       "warranty":2
+     }
+    ]
 }
