@@ -2,9 +2,14 @@
     <img class="card-img-top img-fluid" src="{{productDetails.product_img}}" alt="">
     <div class="card-body">
         <h3 class="card-title">{{productDetails.name}}</h3>
-        <a></a>
+        <a class="btn btn-success" href="products/update-product/{{productDetails.id}}">update-product</a> |
+        <a class="btn btn-danger" href="products/delete-product/{{productDetails.id}}">delete-product</a> |
+        <a class="btn btn-info" href="/products/createproduct">Create-product</a>
         <h4>${{productDetails.price}}</h4>
         <p class="card-text">{{productDetails.name}}</p>
+        <span class="text-warning">{{productDetails.rating}}</span>
+        <hr>
+        <a href="/products" class="btn btn-info">viewallproducts</a>
     </div>
 </div>
 <!-- ./card -->
@@ -14,7 +19,6 @@
     </div>
     <div class="card-body">
         <p class="card-text">{{productDetails.description}}</p>
-        
         <small class="text-muted">Posted ny Anonymous on 3/1/17</small>
         <hr>
         <a href="/products" class="btn btn-success">Leave a Revview</a>

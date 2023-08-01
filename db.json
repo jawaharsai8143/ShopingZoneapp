@@ -1,24 +1,25 @@
 {
   "products": [
+    
     {
       "id": 1,
       "name": "headephone-1",
-      "category_id": 2,
+      "category_id": 1,
       "description": "product description goes here",
       "product_img": "../../assets/img1.jpeg",
-      "price": 100,
+      "price": 1,
       "is_available": true,
-      "rating": 5,
-      "reviwes": 40,
+      "rating": 3,
+      "reviwes": 120,
       "vendor_nmae": "seller-1",
       "warranty": 2
     },
     {
       "id": 2,
       "name": "headephone-2",
-      "category_id": 3,
+      "category_id": 1,
       "description": "product description goes here",
-      "product_img":"../../assets/img2.jpeg",
+      "product_img": "../../assets/img2.jpeg",
       "price": 1,
       "is_available": true,
       "rating": 3,
@@ -28,35 +29,55 @@
     },
     {
       "id": 3,
-      "name": "headephone-2",
-      "category_id": 4,
+      "name": "headephone-3",
+      "category_id": 3,
       "description": "product description goes here",
       "product_img": "../../assets/img3.jpeg",
-      "price": 10,
+      "price": 1,
       "is_available": true,
       "rating": 3,
-      "reviwes": 12,
+      "reviwes": 120,
       "vendor_nmae": "seller-1",
       "warranty": 2
     },
     {
-      "id": 10,
-      "name": "hii",
-      "categoryId": "1"
+      "id": 4,
+      "name": "headephone-4",
+      "category_id": 4,
+      "description": "product description goes here",
+      "product_img": "../../assets/img4.jpeg",
+      "price": 1,
+      "is_available": true,
+      "rating": 3,
+      "reviwes": 120,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
     },
     {
-      "id": 11,
-      "name": "ds",
-      "categoryId": ""
+      "id": 5,
+      "name": "headephone-5",
+      "category_id": 5,
+      "description": "product description goes here",
+      "product_img": "../../assets/img5.jpeg",
+      "price": 1,
+      "is_available": true,
+      "rating": 3,
+      "reviwes": 120,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
     },
     {
-      "id": 12,
-      "name": "sony",
-      "categoryId": "12",
-      "description": "this is very good qulity ",
-      "rating": "2",
-      "color": "red",
-      "isAvailable": "yes"
+      "id": 6,
+      "name": "headephone-6",
+      "category_id": 6,
+      "description": "product description goes here",
+      "product_img": "../../assets/img6.jpeg",
+      "price": 1,
+      "is_available": true,
+      "rating": 3,
+      "reviwes": 120,
+      "vendor_nmae": "seller-1",
+      "warranty": 2
     }
   ],
   "categories": [

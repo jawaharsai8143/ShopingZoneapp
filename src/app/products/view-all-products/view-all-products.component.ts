@@ -15,5 +15,4 @@ export class ViewAllProductsComponent {
       this.allproducts=data
     })
   }
-
 }

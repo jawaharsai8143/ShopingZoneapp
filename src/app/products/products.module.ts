@@ -11,6 +11,9 @@ import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view
 import { ViewProductComponent } from './view-product/view-product.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { HttpClientModule } from '@angular/common/http';
     ViewAllProductsComponent,
     ViewAllProductsByCategoryComponent,
     ViewAllProductsByDateComponent,
-    ViewProductComponent
+    ViewProductComponent,
+    ServicesComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
