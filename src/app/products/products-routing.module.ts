@@ -8,18 +8,26 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { ViewProductComponent } from './view-product/view-product.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
 import { ViewAllProductsComponent } from './view-all-products/view-all-products.component';
+import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
-const routes: Routes = [{ path: '', component: ViewAllProductsComponent },
-{ path: 'createproduct', component: CreateProductComponent },
-  {path:'viewallproducts',component:ViewAllProductsComponent},
-  { path: 'category/:id', component: ViewAllProductsByCategoryComponent},
+const routes: Routes = [
+  { path: '', component: ViewAllProductsComponent },
+  { path: 'services', component: ServicesComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'createproduct', component: CreateProductComponent },
+  { path: 'viewallproducts', component: ViewAllProductsComponent },
+  { path: 'category/:id', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
   { path: 'product/:id', component: ViewProductComponent },
-  { path: 'update-product/:id', component: UpdateProductComponent },];
+  { path: 'update-product/:id', component: UpdateProductComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class ProductsRoutingModule { }
+export class ProductsRoutingModule {}

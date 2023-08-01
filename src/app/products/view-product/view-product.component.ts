@@ -9,7 +9,7 @@ import { ProductService } from '../product.service';
 })
 export class ViewProductComponent {
 
-  productId=0;
+  productId:any;
   productDetails:any;
 
   constructor(private activatedRoute:ActivatedRoute,
